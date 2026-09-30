@@ -1,0 +1,94 @@
+public class array {
+public static void main(String[] args) {
+
+//2d array
+int [][] marks = {
+    {23,53,65},
+    {46,75,97},
+    {64,78,47}
+};
+}
+
+double average = (double) sum / marks.length;
+System.out.println("average = " + average);
+
+largest element
+
+int[] arr = {10,20,30,40,50};
+int largest = arr[0];
+for(int i =1; i <arr.length; i++){
+    if(arr[i] > largest){
+ largest = arr[i];
+    }
+}
+System.out.println("largest = " + largest);
+}
+}
+
+
+for(int row = 0; row < marks.length; row++){
+    for(int col = 0; col < marks[row].length; col++){
+        System.out.print(marks[row][col] + " ");
+    }
+     System.out.println();
+}
+string
+String firstName = "tabrej";
+String lasrName = "zaid";
+String fullName = firstName + " " + lastName;
+System.out.println(fullName);
+ //System.out.println()
+
+// function overloading
+
+int x = sum(a:2, b: 3);
+System.out.println(x);
+int y 
+static int sum(int a, int b);
+return (a + b);
+
+
+int[] numbers = {10,20,30,40,50};
+System.out.println(numbers[0]);
+System.out.println(numbers[1]);
+System.out.println(numbers[2]);
+System.out.println(numbers[3]);
+System.out.println(numbers[4]);
+
+// declare array and give size
+int[] numbers = new int[5];
+numbers[0] = 10;
+numbers[1] = 20;
+numbers[2] = 30;
+numbers[3] = 40;
+numbers[4] = 50;
+
+System.out.println(numbers[4]);
+
+int[] numbers = {10,20,30,40,50};
+for(int i = 0; i < numbers.length; i++){
+System.out.println(numbers[i]);
+}
+
+int[] arr = {10,20,30,40,50};
+for(int i = 0; i < arr.length; i++){
+    System.out.println(numbers[i] + " ");
+}
+
+sum
+int[] arr = {10,20,30,40,50};
+ int sum = 0;
+ for(int i = 1; i<arr.length; i++){
+    sum = sum + arr[i];
+   
+ }
+ System.out.println("sum = " + sum);
+
+
+//average
+int[] arr = {10,20,30,40,50};
+int sum = 0;
+for(int i = 1; i<arr.length; i++){
+    sum = sum + arr[i];
+}
+}
